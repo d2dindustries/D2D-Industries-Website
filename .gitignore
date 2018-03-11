@@ -39,3 +39,7 @@ Thumbs.db
 # Google Analytics #
 ####################
 googlecf26b76202319cd4.html
+
+# PHP Files #
+####################
+*.php
