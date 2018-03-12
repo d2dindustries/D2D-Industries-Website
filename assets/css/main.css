@@ -276,9 +276,9 @@
 		padding: 5% 0 0 15%;
 	}
 
-	.row.\30 \25 {
+/*	.row.\30 \25 {
 		margin: 0px 0 -1px 0px;
-	}
+	}*/
 
 	.row.uniform.\30 \25 > * {
 		padding: 0px 0 0 0px;
@@ -936,7 +936,8 @@
 		}
 
 		.row {
-			margin: -40px 0 -1px -40px;
+			/*margin: -40px 0 -1px -40px;*/
+			margin: 0px 0px -1px 30px;
 		}
 
 		.row.uniform > * {
@@ -1366,7 +1367,8 @@
 		}
 
 		.row {
-			margin: -20px 0 -1px -20px;
+			/*margin: -20px 0 -1px -20px;*/
+			margin: 0px 0 -1px 0px;
 		}
 
 		.row.uniform > * {
@@ -2458,7 +2460,7 @@
 			}
 
 		.main.style2 {
-			padding: 3em 0 3em 0;
+			padding: 2em 0 1.5em 0;
 			overflow: hidden;
 		}
 
@@ -3025,11 +3027,13 @@
 	}
 
 	#tools {
-		padding-top: 0px;
 		margin-left: 5%;
 		padding-left: 0%;
 		width: 32px;
-		height: 32px;
+	}
+
+	.marginFix{
+		margin-left: 40px;
 	}
 
 	#blog-icons {
@@ -3651,6 +3655,10 @@
 				left: -40%;
 			}
 
+			#tools{
+				padding-top: 0px;
+			}
+
 	}
 
 /* Normal */
@@ -3662,6 +3670,10 @@
 			body, input, textarea, select {
 				font-size: 15pt;
 			}
+
+			#tools{
+				padding-top: 0px;
+			}			
 
 	}
 
@@ -3699,6 +3711,10 @@
 			.main.style2.inactive .content.left {
 				left: -50%;
 			}
+
+			#tools{
+				padding-top: 0px;
+			}			
 
 	}
 
@@ -3764,6 +3780,14 @@
 					height: auto;
 					line-height: inherit;
 				}
+
+			#tools{
+				padding-top: 0px;
+			}		
+
+			.marginFix{
+				margin-left: 0px;
+			}
 
 	}
 
@@ -3896,7 +3920,11 @@
 				margin-left: 0%;
 				margin-right: -7%;
 				width: 32%;
-				height: 32%;
+				height: 62px;
+			}
+
+			.marginFix{
+				margin-left: 0px;
 			}
 
 			.image img {
